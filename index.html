@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Form</title>
+</head>
+<body>
+    <h1 style="margin-left: 230px;">Student Form</h1>
+ <div class="container">
+ 
+    <form id="studentform">
+    <table border="1" style="padding: 3px;">
+        <tr>
+            <td style="padding: 5px;">Name</td>
+            <td><input type="text" placeholder="enter your name" id="name"></td>
+        </tr>
+        <tr>
+            <td style="padding: 5px;" border="2" >Age</td> 
+            <td><input id="age" type="text" placeholder="enter your age"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input id="gender" type="radio" name="gender" value="Male">Male <input type="radio" name="gender" value="Female">Female</td>
+           
+        </tr>
+
+        <tr>
+            <td>
+                Courses
+            </td>
+
+            <td id="course">
+                <select style="width: 100%;">
+                    <option>Java</option>
+                    <option>Javascript</option>
+                    <option>Python</option>
+                </select>
+            </td>
+         
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td><input id="email" type="text" placeholder="enter your email"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <button id="btnsave" style="color: aqua; background-color: black; width: 100%; height: 35px;">Save</button>
+            </td>
+        </tr>
+
+
+    </table>
+ </form>
+
+ <form>
+    <table id="studenttable" border="1" style="margin-top: 30px;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Courses</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+ </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

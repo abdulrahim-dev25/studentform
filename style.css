@@ -1,0 +1,71 @@
+body{
+   
+    padding: 0px;
+    margin: 0;
+    
+    margin-top: 50px;
+    
+}
+.container{
+    max-width: 600px;
+    margin-left: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    margin: 5px;
+}
+
+.delete-btn {
+    background-color: crimson;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Media Queries */
+
+/* Small screens (phones, less than 600px) */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 8px;
+    }
+
+    td {
+        padding: 6px;
+    }
+
+    .delete-btn {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+}
+
+/* Medium screens (tablets, 600px - 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+    .container {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Large screens (desktops, more than 900px) */
+@media (min-width: 900px) {
+    .container {
+        margin-left: 200px; /* your original setting */
+    }
+}
+
+
+
+
